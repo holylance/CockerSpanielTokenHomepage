@@ -1,0 +1,15 @@
+.skills {
+  font-size: 1.4rem;
+
+  .parallax-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    .parallax-contents {
+      display: block;
+      text-align: center;
+      color: #84ffff ;
+    }
+  }
+}

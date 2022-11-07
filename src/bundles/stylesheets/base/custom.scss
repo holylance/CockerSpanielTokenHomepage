@@ -1,0 +1,70 @@
+/*
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$gray-medium-light: #eaeaea;
+
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+*/
+
+$thead-color: #bbdefb;
+
+html {
+	font-family: Helvetica, Verdana, sans-serif;
+	font-weight: normal;
+}
+
+.main {
+  min-height: 700px;
+}
+
+.panel {
+  font-size: 1.4rem;
+  margin-left: 2em;
+}
+
+.alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  color: #c09853;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+}
+
+.alert-success {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+
+}
+
+.alert-danger,
+.alert-error {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+
+.alert-info {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+
+}
