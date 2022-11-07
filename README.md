@@ -1,6 +1,6 @@
-# react-js-portfolio
+# Luna Papa Token Homepage
 
-**[This is my portfolio web page in Google Cloud Platform.](http://35.205.24.222:3000/)**
+**[This is the homepage in Google Cloud Platform.](http://35.205.24.222:3000/)**
 
 > $ npm install
 > 
@@ -15,6 +15,3 @@ You can watch a welcome page.
 - react-parallax
 - react-tooltip
 - react-router
-
-### 2. I'm goint to add these libraries.
-- Redux
