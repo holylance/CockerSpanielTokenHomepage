@@ -1,14 +1,13 @@
 # Luna Papa Token Homepage
 
-**[This is the homepage in Google Cloud Platform.](http://35.205.24.222:3000/)**
-
 > $ npm install
 > 
 > $ yarn install
 > 
 > $ yarn start
 
-You can watch a welcome page.
+Then, you can see a welcome page.
+**[This is the homepage in the local.](http://127.0.0.1:3000/)**
 
 ### 1. Using Libraries.
 - react-materialize

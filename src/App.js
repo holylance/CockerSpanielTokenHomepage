@@ -6,22 +6,24 @@ import MyCareers from './bundles/components/MyCareers';
 import LinkList from './bundles/components/LinkList';
 import Contact from './bundles/components/Contact';
 import MyFooter from './bundles/components/MyFooter';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <div className="container">
           <Navigation/>
-          <Route path="/" exact component={Welcome} />
-          <Route path="/skills/" component={Skills} />
-          <Route path="/my_careers/" component={MyCareers} />
-          <Route path="/link_list/" component={LinkList} />
-          <Route path="/contact/" component={Contact} />
+            <Routes>
+              <Route path="/" exact element={<Welcome/>} />
+              <Route path="/skills/" element={<Skills/>} />
+              <Route path="/my_careers/" element={<MyCareers/>} />
+              <Route path="/link_list/" element={<LinkList/>} />
+              <Route path="/contact/" element={<Contact/>} />
+            </Routes>
           <MyFooter/>
         </div>
-      </Router>
+      </BrowserRouter>
     );
   }
 }
