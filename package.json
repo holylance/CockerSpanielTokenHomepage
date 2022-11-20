@@ -2,8 +2,8 @@
   "name": "luna-papa-homepage",
   "version": "0.0.1",
   "private": true,
+  "homepage": ".",
   "dependencies": {
-    "css-loader": "^6.7.1",
     "materialize-css": "^1.0.0",
     "node-sass": "^7.0.3",
     "react": "^17.0.2",
@@ -13,8 +13,7 @@
     "react-router-dom": "^6.4.3",
     "react-scripts": "^5.0.1",
     "react-tooltip": "^4.4.3",
-    "sass-loader": "^13.1.0",
-    "style-loader": "^3.3.1"
+    "sass-loader": "^13.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +29,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1"
+  }
 }

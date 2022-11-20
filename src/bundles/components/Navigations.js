@@ -10,7 +10,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar left>
+        <Navbar left='true'>
           <NavItem href='/'>Home</NavItem>
           <NavItem href='/skills'>Skills</NavItem>
           <NavItem href='/my_careers'>MyCareers</NavItem>
