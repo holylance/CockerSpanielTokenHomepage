@@ -16,10 +16,6 @@ class App extends Component {
           <Navigation/>
             <Routes>
               <Route path="/" exact element={<Welcome/>} />
-              <Route path="/skills/" element={<Skills/>} />
-              <Route path="/my_careers/" element={<MyCareers/>} />
-              <Route path="/link_list/" element={<LinkList/>} />
-              <Route path="/contact/" element={<Contact/>} />
             </Routes>
           <MyFooter/>
         </div>
@@ -29,3 +25,8 @@ class App extends Component {
 }
 
 export default App;
+
+//<Route path="/skills/" element={<Skills/>} />
+//<Route path="/my_careers/" element={<MyCareers/>} />
+//<Route path="/link_list/" element={<LinkList/>} />
+//<Route path="/contact/" element={<Contact/>} />
