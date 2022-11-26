@@ -1,4 +1,4 @@
-# Luna Papa Token Homepage
+# Cocker-Beagle Token Homepage
 
 > $ npm install
 > 

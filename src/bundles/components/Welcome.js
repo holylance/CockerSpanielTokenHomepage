@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import ReactTooltip from 'react-tooltip'
 import {Collapsible, CollapsibleItem} from 'react-materialize'
 import {Parallax} from 'react-parallax'
+import Icon from 'react-materialize'
 import ImageGitHubMark from '../images/GitHubMark.png'
 import ImageBerlin from '../images/berlin.jpg'
 import '../stylesheets/specific/welcome.scss'
@@ -15,33 +16,21 @@ export default class Welcome extends React.Component {
         <Parallax bgImage={ImageBerlin} strength={400} bgWidth='100%' bgHeight='100%'>
           <div className='parallax-container'>
             <div className='parallax-contents'>
-              <h1>Welcome Hyung-Jun's Webpage</h1>
+              <h1>Welcome Cocker-beagle Token Webpage</h1>
             </div>
           </div>
         </Parallax>
         <br />
         <h4>{this.props.mainTitle}</h4>
         <Collapsible popout defaultActiveKey={0}>
-          <CollapsibleItem header='Front-end:' icon='computer' data-tip='Click me please!'>
-            {this.props.frontEnd}
+          <CollapsibleItem header='Cocker-Beagle Token:' data-tip='Click me please!'>
+            {this.props.cobeToken}
           </CollapsibleItem>
-          <CollapsibleItem header='Modules:' icon='build' data-tip='Click me please!'>
-            {this.props.modules}
+          <CollapsibleItem header='Cobe Talk App:' data-tip='Click me please!'>
+            {this.props.cobeTalkApp}
           </CollapsibleItem>
-          <CollapsibleItem header='Router:' icon='laptop_mac' data-tip='Click me please!'>
-            {this.props.router}
-          </CollapsibleItem>
-          <CollapsibleItem header='Server:' icon='backup' data-tip='Click me please!'>
-            {this.props.server}
-          </CollapsibleItem>
-          <CollapsibleItem header='TDD:' icon='layers' data-tip='Click me please!'>
-            {this.props.tdd}
-          </CollapsibleItem>
-        </Collapsible>
-        <br />
-        <Collapsible data-tip='Click me please!'>
-          <CollapsibleItem header={this.props.planTitle} icon='library_add'>
-            {this.props.plans}
+          <CollapsibleItem header='Cobe Lucky App:' data-tip='Click me please!'>
+            {this.props.cobeLuckyApp}
           </CollapsibleItem>
         </Collapsible>
         <br />
@@ -57,23 +46,17 @@ export default class Welcome extends React.Component {
 }
 
 Welcome.defaultProps = {
-  mainTitle: 'This webpage is made by these libraries and tools.',
-  frontEnd: 'ReactJS, Materialize-sass, Webpacker',
-  modules: 'React-tooltip, React-parallax, React-materialize',
-  router: 'React-router',
-  server: 'Google Cloud Platform',
-  tdd: 'Jest, Enzyme',
-  planTitle: 'I will add these libraries and tools for these webpage.',
-  plans: '- Redux',
-  github_link: 'http://35.205.24.222:3000'
+  mainTitle: 'This webpage is made for cobe token and dApps.',
+  cobeToken: 'BSC token: https://testnet.bscscan.com/token/0xb72858cf2ad854ebaf0f14da997847fcd37a5294',
+  cobeTalkApp: '준비중입니다',
+  cobeLuckyApp: '준비중입니다',
+  github_link: 'https://github.com/holylance/LunaPapaHomepage'
 }
 
 Welcome.propTypes = {
   mainTitle: PropTypes.string,
-  frontEnd: PropTypes.string,
-  backEnd: PropTypes.string,
-  dataBase: PropTypes.string,
-  tdd: PropTypes.string,
-  planTitle: PropTypes.string,
-  plans: PropTypes.string
+  cobeToken: PropTypes.string,
+  cobeTalkApp: PropTypes.string,
+  cobeLuckyApp: PropTypes.string,
+  github_link: PropTypes.string
 }

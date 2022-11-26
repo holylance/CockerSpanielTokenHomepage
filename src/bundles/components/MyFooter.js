@@ -8,9 +8,9 @@ export default class MyFooter extends React.Component {
   render() {
     return (
       <div className='my_footer'>
-        <Footer copyrights='&copy 2019 Copyright'
+        <Footer copyrights='&copy 2023 Copyright'
           moreLinks={
-            <div className='grey-text text-lighten-4 right' href='#!'>This webpage can provide English only.</div>
+            <div className='grey-text text-lighten-4 right' href='#!'>This webpage can provide English and Korean.</div>
           }
           links={
             <ul>
@@ -21,7 +21,7 @@ export default class MyFooter extends React.Component {
           className='example'
         >
             <h5 className='white-text'>Made by Hyung-Jun Yoo</h5>
-            <p className='grey-text text-lighten-4'>ReactJS + Ruby on Rails portfolio</p>
+            <p className='grey-text text-lighten-4'>with ReactJS</p>
         </Footer>
       </div>
     );
