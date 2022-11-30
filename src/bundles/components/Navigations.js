@@ -12,6 +12,7 @@ export default class Navigation extends React.Component {
       <div>
         <Navbar left='true'>
           <NavItem href='/'>Home</NavItem>
+          <NavItem href='/link_list'>Link List</NavItem>
         </Navbar>
       </div>
     );
@@ -20,5 +21,5 @@ export default class Navigation extends React.Component {
 
 //<NavItem href='/skills'>Skills</NavItem>
 //<NavItem href='/my_careers'>MyCareers</NavItem>
-//<NavItem href='/link_list'>Link List</NavItem>
+
 //<NavItem href='/contact'>Contact</NavItem>

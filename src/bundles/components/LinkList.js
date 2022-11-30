@@ -4,7 +4,8 @@ import ReactTooltip from 'react-tooltip'
 import {Row, Col, Card, CardTitle} from 'react-materialize'
 import ImageGitHubMark from '../images/GitHubLogo.png'
 import ImageLinkedInMark from '../images/LinkedInLogo.png'
-import ImageCodeCademyMark from '../images/codecademyLogo.png'
+import ImageTwitterMark from '../images/twitterLogo.png'
+import ImageYoutubeMark from '../images/youtubeLogo.png'
 import '../stylesheets/specific/link_list.scss'
 
 export default class LinkList extends React.Component {
@@ -59,10 +60,16 @@ LinkList.defaultProps = {
       image: ImageLinkedInMark
     },
     {
-      site_name: 'Codecademy',
-      content: 'I have learnt several front-end skills',
-      link: 'https://www.codecademy.com/holylance82',
-      image: ImageCodeCademyMark
+      site_name: 'Twitter',
+      content: 'I have a Twitter account',
+      link: 'https://twitter.com/LuncKorea',
+      image: ImageTwitterMark
+    },
+    {
+      site_name: 'Youtube',
+      content: 'I have a famouse Youtube channel',
+      link: 'https://www.youtube.com/channel/UCu7TdPmDF93U5CqfzxyRPCw',
+      image: ImageYoutubeMark
     }
   ]
 }

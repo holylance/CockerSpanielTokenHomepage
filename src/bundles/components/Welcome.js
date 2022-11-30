@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import ReactTooltip from 'react-tooltip'
 import {Collapsible, CollapsibleItem} from 'react-materialize'
 import {Parallax} from 'react-parallax'
-import Icon from 'react-materialize'
 import ImageGitHubMark from '../images/GitHubMark.png'
 import ImageBerlin from '../images/berlin.jpg'
 import '../stylesheets/specific/welcome.scss'
@@ -48,8 +47,8 @@ export default class Welcome extends React.Component {
 Welcome.defaultProps = {
   mainTitle: 'This webpage is made for cobe token and dApps.',
   cobeToken: 'BSC token: https://testnet.bscscan.com/token/0xb72858cf2ad854ebaf0f14da997847fcd37a5294',
-  cobeTalkApp: '준비중입니다',
-  cobeLuckyApp: '준비중입니다',
+  cobeTalkApp: 'To be continue',
+  cobeLuckyApp: 'To be continue',
   github_link: 'https://github.com/holylance/LunaPapaHomepage'
 }
 
