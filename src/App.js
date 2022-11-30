@@ -16,6 +16,7 @@ class App extends Component {
           <Navigation/>
             <Routes>
               <Route path="/" exact element={<Welcome/>} />
+              <Route path="/link_list/" element={<LinkList/>} />
             </Routes>
           <MyFooter/>
         </div>
@@ -28,5 +29,5 @@ export default App;
 
 //<Route path="/skills/" element={<Skills/>} />
 //<Route path="/my_careers/" element={<MyCareers/>} />
-//<Route path="/link_list/" element={<LinkList/>} />
+
 //<Route path="/contact/" element={<Contact/>} />
