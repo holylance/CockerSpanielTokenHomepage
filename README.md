@@ -1,4 +1,4 @@
-# Cocker-Beagle Token Homepage
+# Cocker Spaniel Token Homepage
 
 > $ npm install
 > 

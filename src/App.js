@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from './bundles/components/Navigations';
 import Welcome from './bundles/components/Welcome';
-import Skills from './bundles/components/Skills';
-import MyCareers from './bundles/components/MyCareers';
+import Tokenomics from './bundles/components/Tokenomics';
 import LinkList from './bundles/components/LinkList';
 import Contact from './bundles/components/Contact';
 import MyFooter from './bundles/components/MyFooter';
@@ -16,7 +15,9 @@ class App extends Component {
           <Navigation/>
             <Routes>
               <Route path="/" exact element={<Welcome/>} />
+              <Route path="/tokenomics/" element={<Tokenomics/>} />
               <Route path="/link_list/" element={<LinkList/>} />
+              <Route path="/contact/" element={<Contact/>} />
             </Routes>
           <MyFooter/>
         </div>
@@ -26,8 +27,3 @@ class App extends Component {
 }
 
 export default App;
-
-//<Route path="/skills/" element={<Skills/>} />
-//<Route path="/my_careers/" element={<MyCareers/>} />
-
-//<Route path="/contact/" element={<Contact/>} />
