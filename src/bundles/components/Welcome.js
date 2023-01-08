@@ -15,21 +15,30 @@ export default class Welcome extends React.Component {
         <Parallax bgImage={ImageBerlin} strength={400} bgWidth='100%' bgHeight='100%'>
           <div className='parallax-container'>
             <div className='parallax-contents'>
-              <h1>Welcome Cocker-beagle Token Webpage</h1>
+              <h1>Welcome Cocker Spaniel Token Webpage</h1>
             </div>
           </div>
         </Parallax>
         <br />
         <h4>{this.props.mainTitle}</h4>
         <Collapsible popout defaultActiveKey={0}>
-          <CollapsibleItem header='Cocker-Beagle Token:' data-tip='Click me please!'>
-            {this.props.cobeToken}
+          <CollapsibleItem header='Token name:' data-tip='Click me please!'>
+            {this.props.tokenName}
           </CollapsibleItem>
-          <CollapsibleItem header='Cobe Talk App:' data-tip='Click me please!'>
-            {this.props.cobeTalkApp}
+          <CollapsibleItem header='Ticker:' data-tip='Click me please!'>
+            {this.props.ticker}
           </CollapsibleItem>
-          <CollapsibleItem header='Cobe Lucky App:' data-tip='Click me please!'>
-            {this.props.cobeLuckyApp}
+          <CollapsibleItem header='TestNet:' data-tip='Click me please!'>
+            {this.props.cslTokenTestNet}
+          </CollapsibleItem>
+          <CollapsibleItem header='MainNet:' data-tip='Click me please!'>
+            {this.props.cslTokenMainNet}
+          </CollapsibleItem>
+          <CollapsibleItem header='Max Supply:' data-tip='Click me please!'>
+            {this.props.maxSupply}
+          </CollapsibleItem>
+          <CollapsibleItem header='Cocker Spaniel Talk App:' data-tip='Click me please!'>
+            {this.props.cslTalkApp}
           </CollapsibleItem>
         </Collapsible>
         <br />
@@ -45,17 +54,23 @@ export default class Welcome extends React.Component {
 }
 
 Welcome.defaultProps = {
-  mainTitle: 'This webpage is made for cobe token and dApps.',
-  cobeToken: 'BSC token: https://testnet.bscscan.com/token/0xb72858cf2ad854ebaf0f14da997847fcd37a5294',
-  cobeTalkApp: 'To be continue',
-  cobeLuckyApp: 'To be continue',
+  mainTitle: 'This webpage is made for CSL token and dApps.',
+  cslTokenTestNet: 'https://testnet.bscscan.com/token/0x9F36c365ba7F247A84c65716Ba8d7FB957AfD8Ad',
+  cslTokenMainNet: 'To be continue',
+  tokenName: 'Cocker Spaniel',
+  ticker: 'CSL',
+  maxSupply: '1B / CSL cannot be minted. The total supply is fixed at 1B.',
+  cslTalkApp: 'To be continue',
   github_link: 'https://github.com/holylance/LunaPapaHomepage'
 }
 
 Welcome.propTypes = {
   mainTitle: PropTypes.string,
-  cobeToken: PropTypes.string,
-  cobeTalkApp: PropTypes.string,
-  cobeLuckyApp: PropTypes.string,
+  cslTokenTestNet: PropTypes.string,
+  cslTokenMainNet: PropTypes.string,
+  tokenName: PropTypes.string,
+  ticker: PropTypes.string,
+  maxSupply: PropTypes.string,
+  cslTalkApp: PropTypes.string,
   github_link: PropTypes.string
 }
