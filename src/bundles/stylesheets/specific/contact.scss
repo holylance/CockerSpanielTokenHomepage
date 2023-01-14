@@ -1,22 +1,12 @@
 @import '../base/custom.scss';
 
 .contact {
-  p {
-    @extend .panel;
-  }
+  	p {
+    	@extend .panel;
+  	}
 
-  .google-map {
-    height: 500px;
-    width: 100%;
-  }
-}
-
-.google-map-text {
-  height: 30px;
-  width: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #FAAC58;
-  color: #B40404;
+  	.google-map {
+    	height: 500px;
+    	width: 100%;
+  	}
 }
