@@ -1,7 +1,5 @@
 # Cocker Spaniel Token Homepage
-
-> $ npm install
-> 
+ 
 > $ yarn install
 > 
 > $ yarn start
