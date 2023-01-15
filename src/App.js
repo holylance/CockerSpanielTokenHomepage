@@ -7,6 +7,7 @@ import LinkList from './bundles/components/LinkList';
 import Audit from './bundles/components/Audit';
 import Contact from './bundles/components/Contact';
 import MyFooter from './bundles/components/MyFooter';
+import Roadmap from './bundles/components/Roadmap';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
                     <Route path="/usage/" element={<Usage/>} />
                     <Route path="/link_list/" element={<LinkList/>} />
                     <Route path="/audit/" element={<Audit/>} />
+                    <Route path="/roadmap/" element={<Roadmap/>} />
                     <Route path="/contact/" element={<Contact/>} />
                 </Routes>
                 <MyFooter/>

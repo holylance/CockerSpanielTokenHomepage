@@ -15,6 +15,7 @@ export default class Navigation extends React.Component {
                     <NavItem href="/tokenomics">Tokenomics</NavItem>
                     <NavItem href="/usage">Usage</NavItem>
                     <NavItem href="/link_list">Link List</NavItem>
+                    <NavItem href="/roadmap">Roadmap</NavItem>
                     <NavItem href="/audit">Audit</NavItem>
                     <NavItem href="/contact">Contact</NavItem>
                 </Navbar>
