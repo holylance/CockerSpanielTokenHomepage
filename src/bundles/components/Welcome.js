@@ -37,8 +37,8 @@ export default class Welcome extends React.Component {
 		  			<CollapsibleItem header='Max Supply:' data-tip='Click me please!'>
 						{this.props.maxSupply}
 		  			</CollapsibleItem>
-		  			<CollapsibleItem header='Cocker Spaniel Talk App:' data-tip='Click me please!'>
-						{this.props.cslTalkApp}
+		  			<CollapsibleItem header='Cocker Spaniel dApp:' data-tip='Click me please!'>
+						{this.props.csldApp}
 		  			</CollapsibleItem>
 				</Collapsible>
 				<br />
@@ -60,7 +60,7 @@ Welcome.defaultProps = {
 	tokenName: 'Cocker Spaniel',
 	ticker: 'CSL',
 	maxSupply: '1B / CSL cannot be minted. The total supply is fixed at 1B.',
-	cslTalkApp: 'To be continue',
+	csldApp: 'To be continue',
 	github_link: 'https://github.com/holylance/LunaPapaHomepage'
 }
 
@@ -71,6 +71,6 @@ Welcome.propTypes = {
 	tokenName: PropTypes.string,
 	ticker: PropTypes.string,
 	maxSupply: PropTypes.string,
-	cslTalkApp: PropTypes.string,
+	csldApp: PropTypes.string,
 	github_link: PropTypes.string
 }
