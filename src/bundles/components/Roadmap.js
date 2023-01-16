@@ -42,7 +42,7 @@ Roadmap.defaultProps = {
         phase2: [
             "Start airdrop in the Youtube live stream",
             "First Audit by the ContractChecker",
-            "Open CCS Talk App in the Google Play"
+            "Open CSL dApp"
         ],
         phase3: [
             "CMC and Coingecko listing",
