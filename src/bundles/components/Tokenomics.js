@@ -27,9 +27,6 @@ export default class Tokenomics extends React.Component {
             <CollapsibleItem header="Liquidity" data-tip="Click me please!">
                 {this.props.Liquidity}
             </CollapsibleItem>
-            <CollapsibleItem header="Presale tokens" data-tip="Click me please!">
-                {this.props.PresaleTokens}
-            </CollapsibleItem>
             <CollapsibleItem header="Team" data-tip="Click me please!">
                 {this.props.Team}
             </CollapsibleItem>
@@ -39,8 +36,8 @@ export default class Tokenomics extends React.Component {
             <CollapsibleItem header="Maintenance" data-tip="Click me please!">
                 {this.props.Maintenance}
             </CollapsibleItem>
-            <CollapsibleItem header="Community pool" data-tip="Click me please!">
-                {this.props.CommunityPool}
+            <CollapsibleItem header="DApp reward pool" data-tip="Click me please!">
+                {this.props.DAppPool}
             </CollapsibleItem>
             <CollapsibleItem header="Airdrop" data-tip="Click me please!">
                 {this.props.Airdrop}
@@ -53,21 +50,19 @@ export default class Tokenomics extends React.Component {
 }
 
 Tokenomics.defaultProps = {
-    Liquidity: "100M / 10%",
-    PresaleTokens: "100M / 10%",
+    Liquidity: "200M / 20%",
     Team: "200M / 20%",
     DefensePrice: "200M / 20%",
     Maintenance: "100M / 10%",
-    CommunityPool: "100M / 10%",
+    DAppPool: "100M / 10%",
     Airdrop: "200M / 20%",
 }
 
 Tokenomics.propTypes = {
     Liquidity: PropTypes.string,
-    PresaleTokens: PropTypes.string,
     Team: PropTypes.string,
     DefensePrice: PropTypes.string,
     Maintenance: PropTypes.string,
-    CommunityPool: PropTypes.string,
+    DAppPool: PropTypes.string,
     Airdrop: PropTypes.string,
 }
