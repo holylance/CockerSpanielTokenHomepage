@@ -10,10 +10,6 @@ import ImageWhitePaper from "../images/GitBookLogo.png"
 import "../stylesheets/specific/link_list.scss"
 
 export default class LinkList extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div>
@@ -59,7 +55,7 @@ LinkList.defaultProps = {
         },
         {
             site_name: "Twitter",
-            link: "https://twitter.com/LuncKorea",
+            link: "https://twitter.com/CockerSpanielL2",
             image: ImageTwitterMark
         },
         {

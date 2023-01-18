@@ -3,10 +3,6 @@ import {MediaBox} from "react-materialize"
 import ImageAudit from "../images/audit1.png"
 
 export default class Tokenomics extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div>
