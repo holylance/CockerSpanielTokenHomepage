@@ -7,10 +7,6 @@ import ImageDeveloper from "../images/developerDesk.jpg"
 import "../stylesheets/specific/tokenomics.scss"
 
 export default class Tokenomics extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
         <div className="tokenomics">
